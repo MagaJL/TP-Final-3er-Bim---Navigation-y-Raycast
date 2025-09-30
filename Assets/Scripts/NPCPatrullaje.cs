@@ -75,7 +75,7 @@ public class NPCPatrullaje : MonoBehaviour
         agente.SetDestination(jugador.position);
 
         if (Vector3.Distance(transform.position, jugador.position) <= distanciaPerseguir)
-            SceneManager.LoadScene("GameOverScene");
+            SceneManager.LoadScene("GameOver");
 
         Vector3 dir = (jugador.position - vistaNPC.position).normalized;
         if (Physics.Raycast(vistaNPC.position, dir, out RaycastHit hit, distancia) && hit.collider.CompareTag("Player"))
