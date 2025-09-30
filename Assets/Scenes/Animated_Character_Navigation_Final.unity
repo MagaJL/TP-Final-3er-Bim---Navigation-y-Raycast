@@ -1350,7 +1350,7 @@ MonoBehaviour:
   vistaNPC: {fileID: 1978980604}
   distancia: 10
   angulo: 60
-  distanciaPerseguir: 1.5
+  distanciaPerseguir: 1
   tiempoPerdida: 2
 --- !u!195 &1978980606
 NavMeshAgent:
